@@ -13,6 +13,7 @@ shortLabel angpt1
 longLabel angpt1 long
 visibility full
 allButtonPair on
+autoScale group
  
 	track angpt1_cluster1 
 	type bigWig
@@ -26,4 +27,25 @@ allButtonPair on
 	bigDataUrl angpt1_cluster2.bw
 	shortLabel angpt1_cluster2
 	longLabel angpt1_cluster2 long
+	parent angpt1
+	
+	track angpt1_cluster3
+	type bigWig
+	bigDataUrl angpt1_cluster3.bw
+	shortLabel angpt1_cluster3
+	longLabel angpt1_cluster3 long
+	parent angpt1
+
+	track angpt1_cluster4
+	type bigWig
+	bigDataUrl angpt1_cluster4.bw
+	shortLabel angpt1_cluster4
+	longLabel angpt1_cluster4 long
+	parent angpt1
+	
+	track angpt1_cluster5 
+	type bigWig
+	bigDataUrl angpt1_cluster5.bw
+	shortLabel angpt1_cluster5
+	longLabel angpt1_cluster5 long
 	parent angpt1
