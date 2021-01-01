@@ -50,3 +50,93 @@ alwaysZero on
 	shortLabel angpt1_cluster5
 	longLabel angpt1_cluster5 long
 	parent angpt1
+
+track sele
+type bigWig
+compositeTrack on
+shortLabel sele
+longLabel sele long
+visibility full
+allButtonPair on
+autoScale group 
+alwaysZero on
+ 
+	track sele_cluster1 
+	type bigWig
+	bigDataUrl sele_cluster1.bw
+	shortLabel sele_cluster1
+	longLabel sele_cluster1 long
+	parent sele
+
+	track sele_cluster2 
+	type bigWig
+	bigDataUrl sele_cluster2.bw
+	shortLabel sele_cluster2
+	longLabel sele_cluster2 long
+	parent sele
+	
+	track sele_cluster3
+	type bigWig
+	bigDataUrl sele_cluster3.bw
+	shortLabel sele_cluster3
+	longLabel sele_cluster3 long
+	parent sele
+
+	track sele_cluster4
+	type bigWig
+	bigDataUrl sele_cluster4.bw
+	shortLabel sele_cluster4
+	longLabel sele_cluster4 long
+	parent sele
+	
+	track sele_cluster5 
+	type bigWig
+	bigDataUrl sele_cluster5.bw
+	shortLabel sele_cluster5
+	longLabel sele_cluster5 long
+	parent sele
+
+track prkcda
+type bigWig
+compositeTrack on
+shortLabel prkcda
+longLabel prkcda long
+visibility full
+allButtonPair on
+autoScale group 
+alwaysZero on
+ 
+	track prkcda_cluster1 
+	type bigWig
+	bigDataUrl prkcda_cluster1.bw
+	shortLabel prkcda_cluster1
+	longLabel prkcda_cluster1 long
+	parent prkcda
+
+	track prkcda_cluster2 
+	type bigWig
+	bigDataUrl prkcda_cluster2.bw
+	shortLabel prkcda_cluster2
+	longLabel prkcda_cluster2 long
+	parent prkcda
+	
+	track prkcda_cluster3
+	type bigWig
+	bigDataUrl prkcda_cluster3.bw
+	shortLabel prkcda_cluster3
+	longLabel prkcda_cluster3 long
+	parent prkcda
+
+	track prkcda_cluster4
+	type bigWig
+	bigDataUrl prkcda_cluster4.bw
+	shortLabel prkcda_cluster4
+	longLabel prkcda_cluster4 long
+	parent prkcda
+	
+	track prkcda_cluster5 
+	type bigWig
+	bigDataUrl prkcda_cluster5.bw
+	shortLabel prkcda_cluster5
+	longLabel prkcda_cluster5 long
+	parent prkcda
