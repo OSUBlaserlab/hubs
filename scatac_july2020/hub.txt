@@ -13,6 +13,8 @@ shortLabel angpt1
 longLabel angpt1 long
 visibility full
 allButtonPair on
+autoScale group 
+alwaysZero on
  
 	track angpt1_cluster1 
 	type bigWig
@@ -20,8 +22,6 @@ allButtonPair on
 	shortLabel angpt1_cluster1
 	longLabel angpt1_cluster1 long
 	parent angpt1
-	autoScale group 
-	alwaysZero on
 
 	track angpt1_cluster2 
 	type bigWig
@@ -29,8 +29,6 @@ allButtonPair on
 	shortLabel angpt1_cluster2
 	longLabel angpt1_cluster2 long
 	parent angpt1
-	autoScale group 
-	alwaysZero on
 	
 	track angpt1_cluster3
 	type bigWig
@@ -38,8 +36,6 @@ allButtonPair on
 	shortLabel angpt1_cluster3
 	longLabel angpt1_cluster3 long
 	parent angpt1
-	autoScale group 
-	alwaysZero on
 
 	track angpt1_cluster4
 	type bigWig
@@ -47,8 +43,6 @@ allButtonPair on
 	shortLabel angpt1_cluster4
 	longLabel angpt1_cluster4 long
 	parent angpt1
-	autoScale group 
-	alwaysZero on
 	
 	track angpt1_cluster5 
 	type bigWig
@@ -56,5 +50,3 @@ allButtonPair on
 	shortLabel angpt1_cluster5
 	longLabel angpt1_cluster5 long
 	parent angpt1
-	autoScale group 
-	alwaysZero on
