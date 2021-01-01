@@ -13,7 +13,7 @@ shortLabel angpt1
 longLabel angpt1 long
 visibility full
 allButtonPair on
-autoScale on
+autoScale group 
 alwaysZero on
  
 	track angpt1_cluster1 
