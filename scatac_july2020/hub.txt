@@ -21,9 +21,9 @@ allButtonPair on
 	longLabel angpt1_cluster1
 	parent angpt1
 
-	track angpt1_cluster1 
+	track angpt1_cluster2 
 	type bigWig
-	bigDataUrl angpt1_cluster1.bw
-	shortLabel angpt1_cluster1
-	longLabel angpt1_cluster1
+	bigDataUrl angpt1_cluster2.bw
+	shortLabel angpt1_cluster2
+	longLabel angpt1_cluster2
 	parent angpt1
