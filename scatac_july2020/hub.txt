@@ -13,7 +13,8 @@ shortLabel angpt1
 longLabel angpt1 long
 visibility full
 allButtonPair on
-autoScale group
+autoScale on
+alwaysZero on
  
 	track angpt1_cluster1 
 	type bigWig
