@@ -1,0 +1,13 @@
+hub scatac_july2020
+shortLabel scatac_july2020
+longLabel scatac_july2020
+useOneFile on
+email bradley.blaser@osumc.edu
+
+genome danRer11
+
+track angpt1_cluster1.bw 
+type bigWig
+bigDataUrl angpt1_cluster1.bw
+shortLabel angpt1_cluster1
+longLabel angpt1_cluster1
