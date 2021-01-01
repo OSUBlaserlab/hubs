@@ -10,7 +10,7 @@ track angpt1
 type bigWig
 compositeTrack on
 shortLabel angpt1
-longLabel angpt1
+longLabel angpt1 long
 visibility full
 allButtonPair on
  
@@ -18,12 +18,12 @@ allButtonPair on
 	type bigWig
 	bigDataUrl angpt1_cluster1.bw
 	shortLabel angpt1_cluster1
-	longLabel angpt1_cluster1
+	longLabel angpt1_cluster1 long
 	parent angpt1
 
 	track angpt1_cluster2 
 	type bigWig
 	bigDataUrl angpt1_cluster2.bw
 	shortLabel angpt1_cluster2
-	longLabel angpt1_cluster2
+	longLabel angpt1_cluster2 long
 	parent angpt1
