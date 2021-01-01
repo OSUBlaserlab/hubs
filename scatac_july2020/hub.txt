@@ -6,8 +6,24 @@ email bradley.blaser@osumc.edu
 
 genome danRer11
 
-track angpt1_cluster1.bw 
+track angpt1
 type bigWig
-bigDataUrl angpt1_cluster1.bw
-shortLabel angpt1_cluster1
-longLabel angpt1_cluster1
+compositeTrack on
+shortLabel angpt1
+longLabel angpt1
+visibility full
+allButtonPair on
+ 
+	track angpt1_cluster1 
+	type bigWig
+	bigDataUrl angpt1_cluster1.bw
+	shortLabel angpt1_cluster1
+	longLabel angpt1_cluster1
+	parent angpt1
+
+	track angpt1_cluster1 
+	type bigWig
+	bigDataUrl angpt1_cluster1.bw
+	shortLabel angpt1_cluster1
+	longLabel angpt1_cluster1
+	parent angpt1
