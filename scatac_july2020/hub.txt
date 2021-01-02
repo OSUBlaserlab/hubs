@@ -18,37 +18,37 @@ alwaysZero on
  
 	track angpt1_cluster1 
 	type bigWig
-	bigDataUrl angpt1_cluster1.bw
-	shortLabel angpt1_cluster1
-	longLabel angpt1_cluster1 long
-	parent angpt1
-
-	track angpt1_cluster2 
-	type bigWig
-	bigDataUrl angpt1_cluster2.bw
-	shortLabel angpt1_cluster2
-	longLabel angpt1_cluster2 long
+	bigDataUrl angpt1/cluster01.bw
+	shortLabel angpt1_cluster01
+	longLabel angpt1 cluster 1
 	parent angpt1
 	
-	track angpt1_cluster3
+	track angpt1_cluster2 
 	type bigWig
-	bigDataUrl angpt1_cluster3.bw
-	shortLabel angpt1_cluster3
-	longLabel angpt1_cluster3 long
+	bigDataUrl angpt1/cluster02.bw
+	shortLabel angpt1_cluster02
+	longLabel angpt1 cluster 2
 	parent angpt1
 
-	track angpt1_cluster4
+	track angpt1_cluster3 
 	type bigWig
-	bigDataUrl angpt1_cluster4.bw
-	shortLabel angpt1_cluster4
-	longLabel angpt1_cluster4 long
+	bigDataUrl angpt1/cluster03.bw
+	shortLabel angpt1_cluster03
+	longLabel angpt1 cluster 3
+	parent angpt1
+	
+	track angpt1_cluster4 
+	type bigWig
+	bigDataUrl angpt1/cluster04.bw
+	shortLabel angpt1_cluster04
+	longLabel angpt1 cluster 4
 	parent angpt1
 	
 	track angpt1_cluster5 
 	type bigWig
-	bigDataUrl angpt1_cluster5.bw
-	shortLabel angpt1_cluster5
-	longLabel angpt1_cluster5 long
+	bigDataUrl angpt1/cluster05.bw
+	shortLabel angpt1_cluster05
+	longLabel angpt1 cluster 5
 	parent angpt1
 
 track sele
@@ -63,37 +63,37 @@ alwaysZero on
  
 	track sele_cluster1 
 	type bigWig
-	bigDataUrl sele_cluster1.bw
-	shortLabel sele_cluster1
-	longLabel sele_cluster1 long
-	parent sele
-
-	track sele_cluster2 
-	type bigWig
-	bigDataUrl sele_cluster2.bw
-	shortLabel sele_cluster2
-	longLabel sele_cluster2 long
+	bigDataUrl sele/cluster01.bw
+	shortLabel sele_cluster01
+	longLabel sele cluster 1
 	parent sele
 	
-	track sele_cluster3
+	track sele_cluster2 
 	type bigWig
-	bigDataUrl sele_cluster3.bw
-	shortLabel sele_cluster3
-	longLabel sele_cluster3 long
+	bigDataUrl sele/cluster02.bw
+	shortLabel sele_cluster02
+	longLabel sele cluster 2
 	parent sele
 
-	track sele_cluster4
+	track sele_cluster3 
 	type bigWig
-	bigDataUrl sele_cluster4.bw
-	shortLabel sele_cluster4
-	longLabel sele_cluster4 long
+	bigDataUrl sele/cluster03.bw
+	shortLabel sele_cluster03
+	longLabel sele cluster 3
+	parent sele
+	
+	track sele_cluster4 
+	type bigWig
+	bigDataUrl sele/cluster04.bw
+	shortLabel sele_cluster04
+	longLabel sele cluster 4
 	parent sele
 	
 	track sele_cluster5 
 	type bigWig
-	bigDataUrl sele_cluster5.bw
-	shortLabel sele_cluster5
-	longLabel sele_cluster5 long
+	bigDataUrl sele/cluster05.bw
+	shortLabel sele_cluster05
+	longLabel sele cluster 5
 	parent sele
 
 track prkcda
@@ -108,35 +108,170 @@ alwaysZero on
  
 	track prkcda_cluster1 
 	type bigWig
-	bigDataUrl prkcda_cluster1.bw
-	shortLabel prkcda_cluster1
-	longLabel prkcda_cluster1 long
-	parent prkcda
-
-	track prkcda_cluster2 
-	type bigWig
-	bigDataUrl prkcda_cluster2.bw
-	shortLabel prkcda_cluster2
-	longLabel prkcda_cluster2 long
+	bigDataUrl prkcda/cluster01.bw
+	shortLabel prkcda_cluster01
+	longLabel prkcda cluster 1
 	parent prkcda
 	
-	track prkcda_cluster3
+	track prkcda_cluster2 
 	type bigWig
-	bigDataUrl prkcda_cluster3.bw
-	shortLabel prkcda_cluster3
-	longLabel prkcda_cluster3 long
+	bigDataUrl prkcda/cluster02.bw
+	shortLabel prkcda_cluster02
+	longLabel prkcda cluster 2
 	parent prkcda
 
-	track prkcda_cluster4
+	track prkcda_cluster3 
 	type bigWig
-	bigDataUrl prkcda_cluster4.bw
-	shortLabel prkcda_cluster4
-	longLabel prkcda_cluster4 long
+	bigDataUrl prkcda/cluster03.bw
+	shortLabel prkcda_cluster03
+	longLabel prkcda cluster 3
+	parent prkcda
+	
+	track prkcda_cluster4 
+	type bigWig
+	bigDataUrl prkcda/cluster04.bw
+	shortLabel prkcda_cluster04
+	longLabel prkcda cluster 4
 	parent prkcda
 	
 	track prkcda_cluster5 
 	type bigWig
-	bigDataUrl prkcda_cluster5.bw
-	shortLabel prkcda_cluster5
-	longLabel prkcda_cluster5 long
+	bigDataUrl prkcda/cluster05.bw
+	shortLabel prkcda_cluster05
+	longLabel prkcda cluster 5
 	parent prkcda
+
+track cldn17
+type bigWig
+compositeTrack on
+shortLabel cldn17
+longLabel cldn17 long
+visibility full
+allButtonPair on
+autoScale group 
+alwaysZero on
+ 
+	track cldn17_cluster1 
+	type bigWig
+	bigDataUrl cldn17/cluster01.bw
+	shortLabel cldn17_cluster01
+	longLabel cldn17 cluster 1
+	parent cldn17
+	
+	track cldn17_cluster2 
+	type bigWig
+	bigDataUrl cldn17/cluster02.bw
+	shortLabel cldn17_cluster02
+	longLabel cldn17 cluster 2
+	parent cldn17
+
+	track cldn17_cluster3 
+	type bigWig
+	bigDataUrl cldn17/cluster03.bw
+	shortLabel cldn17_cluster03
+	longLabel cldn17 cluster 3
+	parent cldn17
+	
+	track cldn17_cluster4 
+	type bigWig
+	bigDataUrl cldn17/cluster04.bw
+	shortLabel cldn17_cluster04
+	longLabel cldn17 cluster 4
+	parent cldn17
+	
+	track cldn17_cluster5 
+	type bigWig
+	bigDataUrl cldn17/cluster05.bw
+	shortLabel cldn17_cluster05
+	longLabel cldn17 cluster 5
+	parent cldn17
+
+track mpx
+type bigWig
+compositeTrack on
+shortLabel mpx
+longLabel mpx long
+visibility full
+allButtonPair on
+autoScale group 
+alwaysZero on
+ 
+	track mpx_cluster1 
+	type bigWig
+	bigDataUrl mpx/cluster01.bw
+	shortLabel mpx_cluster01
+	longLabel mpx cluster 1
+	parent mpx
+	
+	track mpx_cluster2 
+	type bigWig
+	bigDataUrl mpx/cluster02.bw
+	shortLabel mpx_cluster02
+	longLabel mpx cluster 2
+	parent mpx
+
+	track mpx_cluster3 
+	type bigWig
+	bigDataUrl mpx/cluster03.bw
+	shortLabel mpx_cluster03
+	longLabel mpx cluster 3
+	parent mpx
+	
+	track mpx_cluster4 
+	type bigWig
+	bigDataUrl mpx/cluster04.bw
+	shortLabel mpx_cluster04
+	longLabel mpx cluster 4
+	parent mpx
+	
+	track mpx_cluster5 
+	type bigWig
+	bigDataUrl mpx/cluster05.bw
+	shortLabel mpx_cluster05
+	longLabel mpx cluster 5
+	parent mpx
+
+track igfbp1a
+type bigWig
+compositeTrack on
+shortLabel igfbp1a
+longLabel igfbp1a long
+visibility full
+allButtonPair on
+autoScale group 
+alwaysZero on
+ 
+	track igfbp1a_cluster1 
+	type bigWig
+	bigDataUrl igfbp1a/cluster01.bw
+	shortLabel igfbp1a_cluster01
+	longLabel igfbp1a cluster 1
+	parent igfbp1a
+	
+	track igfbp1a_cluster2 
+	type bigWig
+	bigDataUrl igfbp1a/cluster02.bw
+	shortLabel igfbp1a_cluster02
+	longLabel igfbp1a cluster 2
+	parent igfbp1a
+
+	track igfbp1a_cluster3 
+	type bigWig
+	bigDataUrl igfbp1a/cluster03.bw
+	shortLabel igfbp1a_cluster03
+	longLabel igfbp1a cluster 3
+	parent igfbp1a
+	
+	track igfbp1a_cluster4 
+	type bigWig
+	bigDataUrl igfbp1a/cluster04.bw
+	shortLabel igfbp1a_cluster04
+	longLabel igfbp1a cluster 4
+	parent igfbp1a
+	
+	track igfbp1a_cluster5 
+	type bigWig
+	bigDataUrl igfbp1a/cluster05.bw
+	shortLabel igfbp1a_cluster05
+	longLabel igfbp1a cluster 5
+	parent igfbp1a
